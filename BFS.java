@@ -48,17 +48,9 @@ public class BFS
             
             System.out.println("The queue is ready:");
         }
-        
-        
-        //We are adding a overidden toString() method to define for node how it should print as a toString by overriding the original toString method.
-        public String toString(Node d)
-        {
-            return "Row: " + d.getRow() + " and Column:" + d.getColumn();
-        }
-    
     
         //Help from ChatGPT - This prints the queued items 
-        public void printQueue(Node d)
+        public void printQueue()
         {
             for (Node n : queue)
             {
