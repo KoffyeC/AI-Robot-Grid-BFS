@@ -11,6 +11,6 @@ public class Runner
         System.out.println();
         bfs.addQueue(g, n);
         bfs.breadth_first_search(g);
-        bfs.printQueue(n);
+        bfs.printQueue();
     }
 }
